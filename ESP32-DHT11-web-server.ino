@@ -9,19 +9,19 @@
 #include <Adafruit_SSD1306.h>
 #include <ESP_Mail_Client.h>
 
-const String ssid = "SAMSUNG";
-const String password = "jednobuch";
+const String ssid = "";
+const String password = "";
 
 /** The smtp host name e.g. smtp.gmail.com for GMail or smtp.office365.com for Outlook or smtp.mail.yahoo.com */
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 465
 
 /* The sign in credentials */
-#define AUTHOR_EMAIL "esptemphum@gmail.com"
-#define AUTHOR_PASSWORD "uxlwvmqkxvjfjnon"
+#define AUTHOR_EMAIL ""
+#define AUTHOR_PASSWORD ""
 
 /* Recipient's email*/
-#define RECIPIENT_EMAIL "krystian.gagracz@gmail.com"
+#define RECIPIENT_EMAIL ""
 
 /* Declare the global used SMTPSession object for SMTP transport */
 SMTPSession smtp;
